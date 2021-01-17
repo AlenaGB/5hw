@@ -1,4 +1,4 @@
-# Option 1
+
 names = []
 employees = []
 with open('file3.txt', 'r') as f:
@@ -18,5 +18,3 @@ for el in employees:
     avg_salary += el['salary']
 print(names, round(avg_salary/len(employees), 2))
 
-# Option 2
-# через цикл
